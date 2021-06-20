@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- title -->
+    <title>Scribes Application</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="src/css/index.css">
+    
+    <!-- scripts -->
+    <script defer src="src/js/index.js"></script>
+
+    <!-- library -->
+    <script src="https://kit.fontawesome.com/4dff4a55ad.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <!-- page -->
+    <div class="page">
+
+        <!-- header -->
+        <header class="header">
+
+            <!-- application title -->
+            <h2>Notes</h2>
+            <!-- application title -->
+
+            <!-- btn [ menu ] -->
+            <button class="btn" id="menu">
+                <!-- icon [ menu ] -->
+                <i class="fas fa-bars"></i>
+                <!-- icon [ menu ] -->
+            </button>
+            <!-- btn [ menu ] -->
+
+        </header>
+        <!-- header -->
+
+        <!-- main -->
+        <main class="main">
+            
+            <!-- content -->
+            <section class="content">
+
+                <!-- form [ note ] element -->
+                <form action="" class="form" id="form">
+
+                    <!-- nav [ nav ] -->
+                    <nav class="nav">
+
+                        <!-- btn [ save || edit ] -->
+                        <button class="btn" id="save">
+                            <!-- icon [ back arrow ] -->
+                            <i class="fas fa-long-arrow-alt-left"></i>
+                            <!-- icon [ back arrow ] -->
+                        </button>
+                        <!-- btn [ save || edit ] -->
+
+                        <!-- controls -->
+                        <ul class="controls">
+
+                            <!-- units -->
+                            <li class="units">
+                                <!-- icon [ palette ] -->
+                                <i class="fas fa-palette"></i>
+                                <!-- icon [ palette ] -->
+                            </li>
+                            <li class="units">
+                                <!-- icon [ sticky note ] -->
+                                <i class="far fa-sticky-note"></i>
+                                <!-- icon [ sticky note ] -->
+                            </li>
+                            <li class="units">
+                                <!-- icon [ camera ] -->
+                                <i class="fas fa-camera"></i>
+                                <!-- icon [ camera ] -->
+                            </li>
+                            <!-- units -->
+
+                        </ul>
+                        <!-- controls -->
+                    
+                    </nav>
+                    <!-- nav [ nav ] -->                    
+                    
+                    <!-- wrapper -->
+                    <div class="wrapper">
+                    
+                        <!-- notes input -->
+                        <input type="text" name="title" id="title" placeholder="Title">
+                        <textarea name="text" id="text" placeholder="Note"></textarea>
+                        <!-- notes input -->
+                    
+                    </div>
+                    <!-- wrapper -->
+                
+                </form>
+                <!-- form [ note ] element -->
+
+                <!-- list -->
+                <ul class="list" id="list"></ul>
+                <!-- list -->
+
+            </section>
+            <!-- content -->
+
+        </main>
+        <!-- main -->
+
+        <!-- footer -->
+        <footer class="footer">
+            
+            <!-- btn [ settings ] -->
+            <button class="btn" id="settings">
+                <!-- icon [ gear ] -->
+                <i class="fas fa-cog"></i>
+                <!-- icon [ gear ] -->
+            </button>
+            <!-- btn [ settings ] -->
+
+            <!-- btn [ create ] -->
+            <button class="btn" id="create">
+                <!-- icon [ plus ] -->
+                <i class="fas fa-plus-square"></i>
+                <!-- icon [ plus ] -->
+            </button>
+            <!-- btn [ create ] -->
+
+        </footer>
+        <!-- footer -->
+    
+    </div>
+    <!-- page -->
+</body>
+</html>
